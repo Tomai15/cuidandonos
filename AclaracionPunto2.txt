@@ -1,0 +1,6 @@
+Justificacion Punto 2.
+
+Para cumplir con los requerimientos del punto 2 decidimos implementar una nueva clase que se llame ListaDeViajes. Es decir tomaremos como viajes individuales cada parada hasta
+terminar con todo el recorrido.Esta clase contendra dentro una lista de los viajes y el tipo de viaje que hara el transeunte, es decir si avisara su estado al final de cada parada o calculara el tiempo viaje por viaje.
+Detro de esta interaface implementamos el metodo modificar demora que en caso de que la configuracion sea calcular la demora por parada, agregara el tiempo que decida parar el transeunte a la demora de cada viaje
+y en caso contrario no agregara ninguna demora.
